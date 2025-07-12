@@ -1,7 +1,7 @@
 /* Darkmode */
 import { useEffect, useState, useRef } from 'react';
   /* Route to pages */
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
   /* Navigate pages */
 import { useNavigate } from 'react-router-dom';
 import { CiLight } from "react-icons/ci";
