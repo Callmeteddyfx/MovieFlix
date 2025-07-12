@@ -7,4 +7,6 @@ export default defineConfig({
   define: {
     'process.env': {} 
   },
+  base: '/MovieFlix/', // ← important!
+  plugins: [react()],
 })
