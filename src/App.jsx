@@ -21,11 +21,6 @@ function Header(){
     document.body.className = darkMode ? 'dark' : 'light';
   }, [darkMode]);
 
-/*   function MyComponent() {
-  useEffect(() => {
-    console.log(apiKey);
-  }, []);
-} */
 
   return(
     <>
@@ -33,7 +28,6 @@ function Header(){
         <button onClick={() => setDarkMode(!darkMode)} className="toggle-btn">
           {darkMode ? <CiLight size={profile_iconsize} color='#FFF'/> : <MdDarkMode size={profile_iconsize} />}
         </button>
-        <div>{MyComponent()}</div>
     </header>
     </>
   )
