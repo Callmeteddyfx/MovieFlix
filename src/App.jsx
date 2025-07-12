@@ -53,7 +53,6 @@ function Title() {
 function App() {
   return (
     <>
-    <BrowserRouter>
     <Routes>
       <Route path = "/" element = 
     {<>
@@ -63,7 +62,6 @@ function App() {
     <Route path = "/home" element = {<Home />}/>
     <Route path = "/mylist" element = {<Mylist />}/>
     </Routes>
-    </BrowserRouter>
   </>
     );
 }
